@@ -1,0 +1,5 @@
+public enum ResidenceStates{
+
+KARNATAKA,MAHARASTRA,KERALA,TAMIL_NADU
+
+}

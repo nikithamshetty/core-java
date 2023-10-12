@@ -1,0 +1,5 @@
+public enum BirthMonth{
+
+JAN,FEB,MAR,APRIL,MAY,JUNE,JULY,AUG,SEP,OCT,NOV,DEC
+
+}

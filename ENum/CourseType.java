@@ -1,0 +1,5 @@
+public enum CourseType{
+
+GENERAL,NON_TECHNICAL,TECHNICAL
+
+}
