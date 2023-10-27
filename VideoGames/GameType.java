@@ -1,0 +1,3 @@
+enum GameType{
+ADVENTUROUS,TRILLER,HORROR;
+}
