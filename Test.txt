@@ -1,0 +1,107 @@
+1. Java ia a high-level and object oriented programming language. Java was introduced by sun microsystem and recently it was undertaken by 
+by oracle corporation and it was released by 1995. java is widely known for its platform independent. Java can be compiled in bytecode 
+we can write and compile the java in one platform and we can run the java in another platform using JVM(Java Virtual Machine).
+
+2. JDK-Java Development Kit.
+   JRE-Java Runrime Environment.
+   JVM-Java Virtual Machine-normally it perform some operations on code like:
+ ->Verifies the code.
+ ->Executes the code.
+ ->Provide a runtime environment.
+
+3. .Java file- it is an extension to save the java programming file. To compile and run the code we should save the code in .java extension.
+   .class file- After creating a class to the particular program it saves as a separate class file, it will be encrypted in a non-readable language.
+
+4.Java IDE's are:
+ Eclipse
+NetBeans
+BlueJ
+JDeveloper
+MyEclipse
+Greenfoot
+jGRASP
+jCreator
+
+5. Variable- variable is the value which is used to store some values init.Variables are the data containers that save the data values during Java program execution. There are 3 types of variables.
+->Local variable
+->Instance variable
+->Static variable
+
+6. Object-Oriented in java means it is a way to communicate with a computer using programming language.
+ is a computer programming model tht has both states and behaviour.
+
+7. nullpointer exception.
+
+8. Data Type- Data types specify the different sizes and values that can be stored in the variable. 
+Types are:
+->int
+->String
+->boolean
+->char
+->float
+->double
+->long int 
+->short int
+
+9. The dot operator (“.”) is used frequently to access a field or to call a method on an object.
+ The dot operator is also used to form qualified names.
+
+10. Java feature:
+->Simple: java is easy programming language and its syntax is also simple unlike c and c++.
+->Platform-Independent: java can be run on any different OS with the help of JVM.
+->Security: java has a great part for its security, we can create virus free system.
+->Robust:
+
+11. Array-It is a collection of contigeous element. By using array we save lot of space using array we assign 2 or more values to the 
+single variable instead of creating separate variable for each value. an array is a data structure that can store a fixed-size sequence of elements of the same data type.
+ 
+Eg: public class Example{
+     int[] arrayex={10,20,30,40};
+    Example(int[] arrayex){
+    this.arrayex=arrayex;
+    }
+    void getarray(){
+    for(int i=0;i>n;i++){
+    System.out.println("array"+arrayex[i]);
+    }
+    }
+}
+public class RunEx{
+public static void main(String[] args){
+Example ex=new Example();
+ex.getarray();
+}
+}
+
+12. Class- class is a blueprint of an object and it is a template used to create objects and to define object data types and method.
+    Objects- 
+
+13. Keywords are built-in types which value cannot be changed. Keywords are:
+->enum, int,void,String,this,static, boolean,float,class,public.
+
+14. Constructor- A constructor in Java is a special method that is used to initialize objects. The constructor is called when an object of a class is created.
+Constructor name should be same as class name. it does not contain anytype of access specifier.Its types are:
+->Default constructor
+->No parameter constructor
+->Parameterized constructor
+
+16.  public class Example1{
+     int[] arrayex1={12,3,2,45,6,7,6};
+    Example1(int[] arrayex1){
+    this.arrayex=arrayex;
+    }
+    void getarray1(){
+    for(int i=0;i>n;i++){
+    System.out.println("array"+arrayex1[i]);
+    }
+    }
+}
+public class RunEx2{
+public static void main(String[] args){
+Exampless ex2=new Exampless();
+ex2.getarray1();
+}
+}
+
+
+17. Method overloading-a feature that allows a class to have more than one method with the same name, but with different parameters.
